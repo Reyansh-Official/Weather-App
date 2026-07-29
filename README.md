@@ -18,6 +18,7 @@ Current capabilities:
 - Update history records with PATCH
 - Delete history records
 - Validate request and response data with Pydantic
+- Inject the Supabase client into routes with FastAPI dependencies
 - Run integration-style tests with pytest
 
 ## Tech Stack
@@ -47,6 +48,7 @@ Current capabilities:
 - Environment variable configuration
 - External API integration
 - Supabase database operations
+- Dependency injection with `Depends`
 - Integration testing with `TestClient`
 
 ## Current Routes
@@ -118,7 +120,6 @@ uv run pytest
 
 Planned backend concepts and features:
 
-- Dependency injection with `Depends`
 - Cleaner service-layer organization
 - Improved database error handling
 - Duplicate/history behavior
